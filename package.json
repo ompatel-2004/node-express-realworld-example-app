@@ -7,7 +7,7 @@
     "build": "nx build",
     "test": "nx test"
   },
-  "private": true,
+  "private": false,
   "prisma": {
     "seed": "ts-node --transpile-only --compiler-options {\"module\":\"CommonJS\"} src/prisma/seed.ts",
     "schema": "src/prisma/schema.prisma"
